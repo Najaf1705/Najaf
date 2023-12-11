@@ -840,7 +840,7 @@ section {
   padding: 10px 15px;
 }
 
-.contact .email-form button[type=submit] {
+button {
   background: #fc8d0e;
   border: 0;
   padding: 10px 24px;
@@ -849,11 +849,11 @@ section {
   border-radius: 4px;
 }
 
-.contact .email-form button[type=submit]:hover {
+button:hover {
   background: #ffbd71;
 }
 
-.contact .email-form button[type=submit]:active {
+button:active {
   transform: translateY(5px);
 }
 
