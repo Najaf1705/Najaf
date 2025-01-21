@@ -3,6 +3,8 @@ import React, { useRef } from "react";
 import { projectsData } from "../lib/data";
 import Image from "next/image";
 import Link from "next/link";
+import { FaLink } from "react-icons/fa";
+
 import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function Projects() {
@@ -41,18 +43,22 @@ function Project({ title, description, tags, imageUrl, href }: ProjectProps) {
         opacity: opacityProgress,
       }}
     >
-      <Link href={href} target="_blank">
       <section
         className=" hover:shadow-xl mt-10   bg-gradient-to-r from-[#f5f3ff] via-[#fce7f3] to-[#ede9fe]
-          max-w-[24rem] sm:max-w-[40rem] pb-2 pt-4 
-          bg-opacity-25 mb-3 sm:mb-8 relative overflow-hidden 
-          last:mb-0 sm:h-[20.5rem] sm:pr-8 border border-black/5 rounded-lg"
+        max-w-[24rem] sm:max-w-[40rem] pb-2 pt-4 
+        bg-opacity-25 mb-3 sm:mb-8 relative overflow-hidden 
+        last:mb-0 sm:h-[20.5rem] sm:pr-8 border border-black/5 rounded-lg"
       >
         <div
           className=" sm:group-odd:ml-[20rem]  px-1 sm:pl-10 sm:pr-0 sm:pt-0 
-         sm:max-w-[50%] flex flex-col h-full"
+          sm:max-w-[50%] flex flex-col h-full"
         >
-          <h2 className="font-black  text-2xl text-gray-800">{title}</h2>
+          <Link href={href} target="_blank">
+            <h2 className="font-black text-2xl text-gray-800 inline-flex items-center gap-2">
+              {title}
+              <FaLink />
+            </h2>
+          </Link>
           <p className="text-md text-gray-600 mt-2 group-odd:ml-[0rem]  sm:max-w-72  p-1 ">
             {description}
           </p>
@@ -87,7 +93,6 @@ function Project({ title, description, tags, imageUrl, href }: ProjectProps) {
          group-odd:right-[initial] group-odd:-left-40 top-14 -right-40 rounded-t-lg w-[30.25rem] shadow-xl"
         />
       </section>
-      </Link>
     </motion.div>
   );
 }

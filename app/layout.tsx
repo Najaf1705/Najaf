@@ -26,6 +26,10 @@ export default function RootLayout({
   return (
     <>
       <html lang="en" className="!scroll-smooth">
+        <head>
+          {/* <meta name="apple-mobile-web-app-title" content="Najaf" /> */}
+        </head>
+
         <body
           className={`${poppins.className} bg-gray-50 relative dark:bg-[#02021c]`}
         >
