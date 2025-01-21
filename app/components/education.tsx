@@ -40,7 +40,7 @@ export default function Education() {
           >
             <time className="font-mono italic">2018</time>
             <div className="text-lg font-black">10th Grade</div>
-            St Mary's High School
+            St Mary&apos;s High School
             <br />
             <span className="text-sm">Mumbai</span>
             <br />
@@ -79,7 +79,7 @@ export default function Education() {
           >
             <time className="font-mono italic">2020</time>
             <div className="text-lg font-black">12th Grade</div>
-            St Mary's Junior College
+            St Mary&apos;s Junior College
             <br />
             <span className="text-sm">Mumbai</span>
             <br />
