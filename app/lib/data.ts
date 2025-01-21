@@ -57,8 +57,7 @@ export const projectsData = [
   },
   {
     title: "Intro",
-    description:
-      "A notes management app designed to help students organize, store, and access their notes efficiently. Students can also view previous year papers,do weekly quizzes. I was incharged of designing the UI in Figma ",
+    description:"Under Construction",
     tags: ["NextJS", "Machine Learning"],
     imageUrl: introImg5,
     href: "https://github.com/Najaf1705/intro"
