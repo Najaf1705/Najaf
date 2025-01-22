@@ -9,10 +9,10 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function Projects() {
   return (
-    <section id="projects">
+    <section id="projects" className="flex flex-col justify-center items-center min-h-[100vh]">
       <div className="mx-2 mt-28">
         <h1 className="font-bold text-2xl text-black dark:text-gray-50 text-center">
-          My Projects
+          Projects
         </h1>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>

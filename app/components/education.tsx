@@ -8,9 +8,9 @@ export default function Education() {
     visible: { opacity: 1, scale: 1 }, // Visible with a transition
   };
   return (
-    <section id="education" className="scroll-mt-24 dark:text-white min-h-[87vh]">
+    <section id="education" className="flex flex-col justify-center items-center min-h-[100vh] dark:text-white">
       <h1 className="text-center text-black font-bold text-2xl dark:text-white">
-        My Education
+        Education
       </h1>
       <ul className="mt-10 timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-black dark:text-gray-200">
         <li>

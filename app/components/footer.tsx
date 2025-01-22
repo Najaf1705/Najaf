@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
     <div>
-      <footer className="mb-10 px-4 mt-20 text-center text-gray-500 dark:text-gray-300">
+      <footer className="px-4 mt-20 text-center text-white dark:text-black bg-black dark:bg-gray-400">
         <small className="mb-2 block text-xs">
           &copy; {currentYear} Najaf Shaikh. All rights reserved.
         </small>

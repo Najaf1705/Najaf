@@ -2,12 +2,13 @@ import React from "react";
 
 import Image from "next/image";
 import zen from "../../public/zen.jpg";
+import aws from "../../public/aws.png";
 
 export default function Certificates() {
   return (
-    <section id="certificates" className="scroll-mt-16 min-h-[80vh]">
+    <section id="certificates" className="flex flex-col justify-center items-center min-h-[100vh]">
       <h1 className="text-2xl text-gray-600 font-semibold text-center mt-20 dark:text-gray-50">
-        My Certificates
+        Certificates
       </h1>
       <div className="flex flex-wrap justify-center items-center gap-4 mt-10 text-gray-600  ">
         {" "}
@@ -16,7 +17,7 @@ export default function Certificates() {
           <figure className="px-5 pt-5 relative">
             <Image
               alt="aws-certificate"
-              src={zen}
+              src={aws}
               width={290}
               height={250}
               priority={true}
