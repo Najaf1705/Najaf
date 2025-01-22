@@ -15,7 +15,7 @@ export default function Intro() {
     return (
       <span className="font-extrabold text-3xl inline-flex animate-text-gradient bg-gradient-to-r from-[#00FF88] via-[#00B5E2] to-[#00FF88]
  bg-[200%_auto] bg-clip-text  text-transparent">
-        Hi I am Najaf Shaikh
+        Najaf Shaikh
       </span>
     );
   };
@@ -92,10 +92,12 @@ export default function Intro() {
             Download Resume
             <LuDownload />
           </motion.a>
+
+
           <motion.div className="flex gap-2">
             <motion.a
               href="https://www.linkedin.com/in/najaf17/"
-              className="text-3xl text-white bg-black dark:text-black dark:bg-white p-3 gap-2 rounded-full flex items-center shadow-sm shadow-black/10 justify-center relative"
+              className="text-3xl text-white bg-black dark:text-black dark:bg-white p-3 gap-2 rounded-full flex items-center shadow-sm shadow-black/10 justify-center relative group"
               target="_blank"
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
@@ -103,17 +105,15 @@ export default function Intro() {
                 delay: 0.3,
               }}
             >
-              <div className="relative group">
-                <FaLinkedin className="hover:scale-105" />
-                <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-sm bg-gray-700 text-white rounded-lg p-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                  LinkedIn
-                </div>
+              <FaLinkedin className="hover:scale-105" />
+              <div className="absolute bottom-14 left-1/2 transform -translate-x-1/2 text-sm bg-gray-700 text-white rounded-lg p-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                LinkedIn
               </div>
             </motion.a>
+
             <motion.a
               href="https://github.com/najaf1705"
-              className=" text-3xl text-white bg-black dark:text-black dark:bg-white  shadow-sm shadow-black/10 p-3 gap-2  flex items-center
-              justify-center relative rounded-full"
+              className="text-3xl text-white bg-black dark:text-black dark:bg-white shadow-sm shadow-black/10 p-3 gap-2 flex items-center justify-center relative rounded-full group"
               target="_blank"
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
@@ -121,17 +121,15 @@ export default function Intro() {
                 delay: 0.4,
               }}
             >
-              <div className="relative group">
-                <FaGithubSquare className="hover:scale-105" />
-                <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-sm bg-gray-700 text-white rounded-lg p-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                  GitHub
-                </div>
+              <FaGithubSquare className="hover:scale-105" />
+              <div className="absolute bottom-14 left-1/2 transform -translate-x-1/2 text-sm bg-gray-700 text-white rounded-lg p-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                GitHub
               </div>
             </motion.a>
+
             <motion.a
               href="https://leetcode.com/enzoe/"
-              className=" text-3xl text-white bg-black dark:text-black dark:bg-white shadow-sm shadow-black/10 p-3 gap-2  flex items-center
-              justify-center relative rounded-full"
+              className="text-3xl text-white bg-black dark:text-black dark:bg-white shadow-sm shadow-black/10 p-3 gap-2 flex items-center justify-center relative rounded-full group"
               target="_blank"
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
@@ -139,13 +137,12 @@ export default function Intro() {
                 delay: 0.4,
               }}
             >
-              <div className="relative group">
-                <FaCode className="hover:scale-105" />
-                <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-sm bg-gray-700 text-white rounded-lg p-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                  LeetCode
-                </div>
+              <FaCode className="hover:scale-105" />
+              <div className="absolute bottom-14 left-1/2 transform -translate-x-1/2 text-sm bg-gray-700 text-white rounded-lg p-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                Leetcode
               </div>
             </motion.a>
+
           </motion.div>
         </div>
       </div>
