@@ -40,7 +40,7 @@ export default function Education() {
           >
             <time className="font-mono italic">2018</time>
             <div className="text-lg font-black">10th Grade</div>
-            St Mary&apos;s High School
+            St Marys High School
             <br />
             <span className="text-sm">Mumbai</span>
             <br />
@@ -79,7 +79,7 @@ export default function Education() {
           >
             <time className="font-mono italic">2020</time>
             <div className="text-lg font-black">12th Grade</div>
-            St Mary&apos;s Junior College
+            St Marys Junior College
             <br />
             <span className="text-sm">Mumbai</span>
             <br />
@@ -94,7 +94,7 @@ export default function Education() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="h-5 w-5   text-violet-400 dark:border-violet-100 border border-dashed rounded-full border-black"
+              className="h-5 w-5 text-violet-400 dark:border-violet-100 border border-dashed rounded-full border-black"
             >
               <path
                 fillRule="evenodd"
