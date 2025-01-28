@@ -19,7 +19,7 @@ export default function Intro() {
 
   const incrementCount = async (link: string) => {
     try {
-      const docRef = doc(firestore, "clicks_data", "9xSixzbgtbvZowR9Ma30"); // Replace with your document ID
+      const docRef = doc(firestore, "portfolio", "RsVo69EKQqJmRUdeIckC"); // Replace with your document ID
       await updateDoc(docRef, {
         [link]: increment(1), // Increment the count by 1
       });
