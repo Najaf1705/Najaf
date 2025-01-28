@@ -9,11 +9,10 @@ import { GoArrowRight } from "react-icons/go";
 import { LuDownload } from "react-icons/lu";
 import { FaCode, FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
+import { firestore } from "../lib/firebase";
 import { getFirestore, doc, updateDoc, increment } from "firebase/firestore";
 
 // Firestore instance
-const firestore = getFirestore();
-
 export default function Intro() {
   const documentId = process.env.NEXT_PUBLIC_FIREBASE_DOCUMENT_ID;
 
