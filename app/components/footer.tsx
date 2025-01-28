@@ -16,7 +16,7 @@ export default function Footer() {
   // Fetch data from Firestore for the specific document
   const fetchData = async () => {
     try {
-      const docRef = doc(firestore, "clicks_data", documentId); // Using the env var for document ID
+      const docRef = doc(firestore, "clicks_data", "9xSixzbgtbvZowR9Ma30"); // Using the env var for document ID
       const docSnap = await getDoc(docRef);
 
       if (docSnap.exists()) {
