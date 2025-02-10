@@ -1,4 +1,5 @@
 import About from "./components/about";
+import Admin from "./components/Admin";
 import Certificates from "./components/certificates";
 import Contact from "./components/contact";
 import Education from "./components/education";
@@ -18,6 +19,7 @@ export default function Home() {
       <Education />
       <Certificates />
       <Contact />
+      <Admin/>
     </main>
   );
 }
