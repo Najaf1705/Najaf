@@ -31,7 +31,7 @@ export default function About() {
           Developed projects like <span className="text-[#a5b4fc] font-semibold">Parkit</span> (<span className="text-[#a5b4fc] font-semibold">ML, IoT, React Native, Firebase</span>) for parking reservations and <span className="text-[#a5b4fc] font-semibold">Musync</span> (<span className="text-[#a5b4fc] font-semibold">MERN, ML</span>) for song recommendations and playlist creation.
         </li>
         <li>
-          Won <span className="text-[#a5b4fc] font-semibold">1st place</span> in college coding competitions and ranked <span className="text-[#a5b4fc] font-semibold">top 300</span> in the national <span className="text-[#a5b4fc] font-semibold">"Code-Uncode"</span> contest, with active participation in <span className="text-[#a5b4fc] font-semibold">hackathons</span>.
+          Won <span className="text-[#a5b4fc] font-semibold">1st place</span> in college coding competitions and ranked <span className="text-[#a5b4fc] font-semibold">top 300</span> in the national <span className="text-[#a5b4fc] font-semibold">&quot;Code-Uncode&quot;</span> contest, with active participation in <span className="text-[#a5b4fc] font-semibold">hackathons</span>.
         </li>
       </ul>
     </motion.section>
