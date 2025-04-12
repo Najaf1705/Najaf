@@ -3,15 +3,15 @@
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import { useState, useEffect } from "react";
-import Header from "./components/header";
-import Footer from "./components/footer";
-import Darktheme from "./components/darktheme";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import Darktheme from "@/components/darktheme";
 import { Toaster } from "react-hot-toast";
 
-const poppins = Poppins({
-  weight: "400",
-  subsets: ["latin"],
-});
+// const poppins = Poppins({
+//   weight: "400",
+//   subsets: ["latin"],
+// });
 
 export default function RootLayout({
   children,
@@ -67,7 +67,7 @@ export default function RootLayout({
           <link rel="icon" href="/favicon.ico" />
         </head>
         <body
-          className={`${poppins.className} bg-gray-50 relative dark:bg-[#02021c]`}
+          className={` bg-gray-50 relative dark:bg-[#02021c]`}
         >
           <div
             className="bg-[#d9c5ff] dark:bg-[#C8ACD6] dark:bg-opacity-45 bg-opacity-60 absolute top-[-8rem] right-[1rem] h-[51.25rem] w-[11.25rem]

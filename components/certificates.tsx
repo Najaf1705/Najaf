@@ -1,8 +1,8 @@
 import React from "react";
 
 import Image from "next/image";
-import zen from "../../public/zen.jpg";
-import aws from "../../public/aws.png";
+import zen from "@/public/zen.jpg";
+import aws from "@/public/aws.png";
 
 export default function Certificates() {
   return (
@@ -28,7 +28,7 @@ export default function Certificates() {
             <p>AWS</p>{" "}
           </div>{" "}
         </div>{" "}
-        <div className="card  bg-white  dark:border dark:border-white/20 dark:text-white  w-80 h-96 shadow-xl hover:scale-105 transition-hover-scale dark:bg-opacity-10">
+        {/* <div className="card  bg-white  dark:border dark:border-white/20 dark:text-white  w-80 h-96 shadow-xl hover:scale-105 transition-hover-scale dark:bg-opacity-10">
           {" "}
           <figure className="px-5 pt-5 relative">
             <Image
@@ -43,7 +43,7 @@ export default function Certificates() {
             <h2 className="card-title ">AWS Foundation Course</h2>
             <p>AWS</p>{" "}
           </div>{" "}
-        </div>{" "}
+        </div>{" "} */}
       </div>
     </section>
   );

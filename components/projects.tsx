@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef } from "react";
-import { projectsData } from "../lib/data";
+import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 import { FaLink } from "react-icons/fa";
@@ -44,7 +44,7 @@ function Project({ title, description, tags, imageUrl, href }: ProjectProps) {
       }}
     >
       <section
-        className=" hover:shadow-xl mt-10   bg-gradient-to-r from-[#f5f3ff] via-[#fce7f3] to-[#ede9fe]
+        className=" hover:shadow-xl mt-10  bg-gradient-to-r from-[#f5f3ff] via-[#fce7f3] to-[#ede9fe]
         max-w-[24rem] sm:max-w-[40rem] pb-2 pt-4 
         bg-opacity-25 mb-3 sm:mb-8 relative overflow-hidden 
         last:mb-0 sm:h-[20.5rem] sm:pr-8 border border-black/5 rounded-lg"

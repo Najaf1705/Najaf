@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import Image from "next/image";
-import memoji from "../../public/memoji.png";
 import { motion } from "framer-motion";
 
 import Link from "next/link";
@@ -30,7 +28,7 @@ export default function Intro() {
 
   const TextAnimatedGradient = () => {
     return (
-      <span className="font-extrabold text-3xl inline-flex animate-text-gradient bg-gradient-to-r from-[#00FF88] via-[#00B5E2] to-[#00FF88]
+      <span className="font-extrabold text-5xl py-2 inline-flex animate-text-gradient bg-gradient-to-r from-[#00FF88] via-[#00B5E2] to-[#00FF88]
  bg-[200%_auto] bg-clip-text  text-transparent">
         Najaf Shaikh
       </span>

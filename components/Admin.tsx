@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { doc, getDoc } from "firebase/firestore"; // Missing import
 import toast from "react-hot-toast";
-import { firestore } from "../lib/firebase"; // Ensure correct import for Firestore
+import { firestore } from "@/lib/firebase"; // Ensure correct import for Firestore
 
 function Admin() {
   const [isPasswordDialogOpen, setPasswordDialogOpen] = useState(false);

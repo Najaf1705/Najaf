@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { sendEmail } from "../actions/sendEmail";
+import { sendEmail } from "@/actions/sendEmail";
 import toast from "react-hot-toast";
 
 export default function Contact() {
