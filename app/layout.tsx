@@ -65,6 +65,11 @@ export default function RootLayout({
 
           {/* Favicon */}
           <link rel="icon" href="/favicon.ico" />
+
+          {/* preconnects */}
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
+          <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
+          <link rel="preconnect" href="https://firestore.googleapis.com"/>
         </head>
         <body
           className={` bg-gray-50 relative dark:bg-[#02021c]`}

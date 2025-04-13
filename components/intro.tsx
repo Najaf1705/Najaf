@@ -3,12 +3,11 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import Link from "next/link";
-import { GoArrowRight } from "react-icons/go";
 import { LuDownload } from "react-icons/lu";
 import { FaCode, FaEnvelope, FaLinkedin, FaMailBulk } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { firestore } from "../lib/firebase";
-import { getFirestore, doc, updateDoc, increment } from "firebase/firestore";
+import { doc, updateDoc, increment } from "firebase/firestore";
 
 // Firestore instance
 export default function Intro() {
@@ -38,19 +37,6 @@ export default function Intro() {
     <section id="home" className="h-screen flex items-center">
       <div className="flex items-center justify-center mt-32 sm:mt-40">
         <div className="relative">
-          {/* <motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.3, ease: "easeInOut" }}
-          >
-            <Image
-              alt="memoji"
-              src={memoji}
-              width={192}
-              height={192}
-              priority={true}
-            />
-          </motion.div> */}
         </div>
       </div>
       <div className=" text-center gap-2">
@@ -61,37 +47,9 @@ export default function Intro() {
           transition={{ duration: 0.3, ease: "easeInOut" }}
         >
           <TextAnimatedGradient />
-          {/* <br />I am a{" "}
-          <span className="font-semibold">
-            full-stack developer & AI/ML enthusiast{" "}
-          </span>{" "}
-          proficient in{" "}
-          <span className="font-semibold">
-            ReactJS, Node.js, MongoDB, and Firebase
-          </span>
-          . I am passionate about building{" "}
-          <span className="font-semibold">innovative apps</span> that combine{" "}
-          <span className="font-semibold">creativity</span> with{" "}
-          <span className="font-semibold">cutting-edge technologies</span>. I enjoy
-          exploring solutions that integrate{" "}
-          <span className="font-semibold">machine learning</span> with user-friendly
-          designs. */}
         </motion.p>
 
         <div className="flex flex-col  mt-5 sm:flex-row items-center justify-center gap-3">
-          {/* <motion.a
-            href="/#contact"
-            className=" animate-background-shine dark:bg-[#818cf8] dark:hover:bg-[#5964cf] hover:bg-slate-500 shadow-sm shadow-black/10 cursor-pointer font-medium bg-gray-700 text-white  flex items-center py-3 px-7 gap-2 justify-center relative rounded-full "
-            initial={{ opacity: 0, y: 100 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              delay: 0.1,
-            }}
-          >
-            {" "}
-            Contact me here
-            <GoArrowRight />{" "}
-          </motion.a> */}
           <motion.a
             href="/najafCV.pdf"
             download
