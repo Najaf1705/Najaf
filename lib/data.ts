@@ -41,7 +41,7 @@ export const projectsData = [
       "Created a music app using the MERN stack, integrating machine learning for personalized song recommendations and efficient playlist management.",
     tags: ["ReactJS", "NodeJS", "MongoDB", "Machine Learning"],
     imageUrl: musyncImg,
-    href: "https://github.com/Najaf1705/musync",
+    href: "https://musync-enzoe.vercel.app",
   },
   {
     title: "Parkit",
