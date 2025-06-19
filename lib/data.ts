@@ -38,10 +38,11 @@ export const projectsData = [
   {
     title: "Musync",
     description:
-      "Created a music app using the MERN stack, integrating machine learning for personalized song recommendations and efficient playlist management.",
-    tags: ["ReactJS", "NodeJS", "MongoDB", "Machine Learning"],
+      "Originally a monolithic college project, now refactored with modular architecture, Redux state management, and secure authentication to enhance performance, scalability, code readability, and align with industry best practices.",
+    tags: ["ReactJS", "NodeJS", "MongoDB", "Redux"],
     imageUrl: musyncImg,
     href: "https://musync-enzoe.vercel.app",
+    sectionTitle: "Click to view live website"
   },
   {
     title: "Parkit",
@@ -50,13 +51,15 @@ export const projectsData = [
     tags: ["React Native", "Machine Learning", "NodeJS", "IOT", "Firebase"],
     imageUrl: parkitImg,
     href: "https://github.com/Najaf1705/parkit",
+    sectionTitle: "Click to view Github repo"
   },
   {
     title: "Intro",
-    description: "Under Construction",
-    tags: ["NextJS", "Machine Learning"],
+    description: "Built an AI mock interview platform with Next.js, Clerk auth, webcam and voice input, real-time feedback, and Gemini API integration for generating role-specific questions, answers, and evaluations.",
+    tags: ["NextJS", "Gemini API", "TailwindCSS"],
     imageUrl: introImg,
     href: "https://intro-enzoe.vercel.app/",
+    sectionTitle: "Click to view live website"
   },
 ] as const;
 

@@ -25,7 +25,7 @@ export default function Projects() {
 }
 type ProjectProps = (typeof projectsData)[number];
 
-function Project({ title, description, tags, imageUrl, href }: ProjectProps) {
+function Project({ title, description, tags, imageUrl, href, sectionTitle }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({
@@ -51,6 +51,7 @@ function Project({ title, description, tags, imageUrl, href }: ProjectProps) {
         onClick={() => { 
           window.open(href, "_blank");
         }}
+        title={sectionTitle}
       >
         <div
           className=" sm:group-odd:ml-[20rem]  px-1 sm:pl-10 sm:pr-0 sm:pt-0 

@@ -1,9 +1,12 @@
 "use client";
-import React from "react";
+import React, { useRef, useState } from "react";
 import { sendEmail } from "@/actions/sendEmail";
 import toast from "react-hot-toast";
 
 export default function Contact() {
+  const formRef = useRef<HTMLFormElement>(null);
+  const [showSuccess, setShowSuccess] = useState(false);
+
   return (
     <section
       id="contact"
@@ -24,6 +27,7 @@ export default function Contact() {
           or through the form below.
         </p>
         <form
+          ref={formRef}
           className="flex flex-col gap-3 text-center items-center w-full max-w-xl mx-auto "
           action={async (formData) => {
             const { data, error } = await sendEmail(formData);
@@ -34,6 +38,9 @@ export default function Contact() {
             }
 
             toast.success("Email sent successfully!");
+            formRef.current?.reset();
+            setShowSuccess(true);
+            setTimeout(() => setShowSuccess(false), 3000);
           }}
         >
           <label className="mt-6 w-full sm:w-96">
