@@ -14,26 +14,59 @@ export default function About() {
       <h1 className="text-center font-bold text-2xl mt-8 text-black dark:text-gray-50">
         About Me
       </h1>
-      <ul className="mt-5 sm:mx-8 text-lg md:text-xl list-disc pl-6">
-        <li>
-          <span className="text-[#a5b4fc] font-semibold">Mobile App Developer</span> at <span className="text-[#a5b4fc] font-semibold">Wizard Support Services</span>, building a <span className="text-[#a5b4fc] font-semibold">stock advisory  app</span> with real-time data integration and payment gateways.
-        </li>
-        <li>
-          Final-year <span className="text-[#a5b4fc] font-semibold">B.E. Computer Science</span> student at <span className="text-[#a5b4fc] font-semibold">Rizvi College of Engineering, Mumbai</span>, graduating in <span className="text-[#a5b4fc] font-semibold">2025</span> with a <span className="text-[#a5b4fc] font-semibold">CGPA of 8.0</span>.
-        </li>
-        <li>
-          Skilled in programming languages: <span className="text-[#a5b4fc] font-semibold">Java, JavaScript, TypeScript, Python, C++</span>.
-        </li>
-        <li>
-          Proficient in development technologies: <span className="text-[#a5b4fc] font-semibold">React.js, Next.js, Node.js, React Native, REST APIs</span>, with experience in <span className="text-[#a5b4fc] font-semibold">MongoDB, SQL, Firebase, AWS, Docker</span>.
-        </li>
-        <li>
-          Developed projects like <span className="text-[#a5b4fc] font-semibold">Parkit</span> (<span className="text-[#a5b4fc] font-semibold">ML, IoT, React Native, Firebase</span>) for parking reservations and <span className="text-[#a5b4fc] font-semibold">Musync</span> (<span className="text-[#a5b4fc] font-semibold">MERN, ML</span>) for song recommendations and playlist creation.
-        </li>
-        <li>
-          Won <span className="text-[#a5b4fc] font-semibold">1st place</span> in multiple coding competitions with the help of strong problem solving skills.
-        </li>
-      </ul>
+      <div className="mt-6 sm:mx-8 space-y-6 text-lg md:text-xl">
+
+  <p>
+    I’m a <span className="text-[#a5b4fc] font-semibold">System Administrator at Kyndryl Solutions</span>,
+    working in enterprise production environments supporting{" "}
+    <span className="text-[#a5b4fc] font-semibold">Windows and Linux servers</span>,{" "}
+    <span className="text-[#a5b4fc] font-semibold">Nginx middleware</span>, and{" "}
+    <span className="text-[#a5b4fc] font-semibold">Java-based application deployments</span>.
+  </p>
+
+  <p>
+    My day-to-day work includes executing{" "}
+    <span className="text-[#a5b4fc] font-semibold">application deployments</span>, participating in{" "}
+    <span className="text-[#a5b4fc] font-semibold">Disaster Recovery drills</span> by updating{" "}
+    <span className="text-[#a5b4fc] font-semibold">DNS A records</span>, managing{" "}
+    <span className="text-[#a5b4fc] font-semibold">Nginx configuration changes</span>, reloading services,
+    and validating <span className="text-[#a5b4fc] font-semibold">SSL/TLS certificates</span>.
+  </p>
+
+  <p>
+    I focus heavily on <span className="text-[#a5b4fc] font-semibold">automation and reliability</span>,
+    developing <span className="text-[#a5b4fc] font-semibold">Bash scripts</span> and{" "}
+    <span className="text-[#a5b4fc] font-semibold">cron jobs</span> for log rotation, retention, and system
+    housekeeping to reduce operational risk.
+  </p>
+
+  <p>
+    Previously, I worked as a{" "}
+    <span className="text-[#a5b4fc] font-semibold">Mobile App Developer Intern</span> at{" "}
+    <span className="text-[#a5b4fc] font-semibold">Wizard Support Services</span>, building a{" "}
+    <span className="text-[#a5b4fc] font-semibold">React Native stock advisory application</span> with real-time
+    data and secure payment integrations.
+  </p>
+
+  <p>
+    I hold a <span className="text-[#a5b4fc] font-semibold">B.E. in Computer Science</span> from{" "}
+    <span className="text-[#a5b4fc] font-semibold">Rizvi College of Engineering, Mumbai</span> (2025, CGPA 8.0),
+    and have hands-on experience with{" "}
+    <span className="text-[#a5b4fc] font-semibold">
+      React, Node.js, Spring Boot, AWS, Docker, SQL, and MongoDB
+    </span>.
+  </p>
+
+  <p className="mt-4 sm:mx-8 text-lg md:text-xl">
+  Actively seeking <span className="text-[#a5b4fc] font-semibold">Software Engineering roles</span> that value a
+  strong foundation in <span className="text-[#a5b4fc] font-semibold">full-stack development</span>,{" "}
+  <span className="text-[#a5b4fc] font-semibold">automation</span>, and{" "}
+  <span className="text-[#a5b4fc] font-semibold">production infrastructure</span>.
+</p>
+
+
+</div>
+
     </motion.section>
   );
 }

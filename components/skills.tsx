@@ -18,6 +18,8 @@ import {
   SiDocker,
   SiAmazon,
   SiLinux,
+  SiNginx,
+  SiWindows10,
 } from "react-icons/si";
 import { FaJava, FaAws } from "react-icons/fa";
 import React from "react";
@@ -42,6 +44,8 @@ const iconMap = {
   SiFirebase,
   SiGit,
   SiDocker,
+  SiNginx,
+  SiWindows10,
   FaAws,
   SiLinux,
 };

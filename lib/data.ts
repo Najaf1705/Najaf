@@ -21,8 +21,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Education",
-    hash: "#education",
+    name: "Timeline",
+    hash: "#timeline",
   },
   {
     name: "Certificates",
@@ -65,6 +65,7 @@ export const projectsData = [
 
 export const skillsData = [
   { name: "C++", icon: "SiCplusplus", position: { x: "5%", y: "30%" } },
+  { name: "Windows", icon: "SiWindows10", position: { x: "20%", y: "42%" } },
   { name: "Java", icon: "FaJava", position: { x: "2%", y: "5%" } },
   { name: "Python", icon: "SiPython", position: { x: "25%", y: "10%" } },
   { name: "JavaScript", icon: "SiJavascript", position: { x: "55%", y: "30%" } },
@@ -76,7 +77,8 @@ export const skillsData = [
   { name: "Express", icon: "SiExpress", position: { x: "85%", y: "50%" } },
   { name: "MongoDB", icon: "SiMongodb", position: { x: "35%", y: "55%" } },
   { name: "Tailwind", icon: "SiTailwindcss", position: { x: "60%", y: "55%" } },
-  { name: "SQL", icon: "SiPostgresql", position: { x: "90%", y: "5%" } },
+  { name: "SQL", icon: "SiPostgresql", position: { x: "75%", y: "40%" } },
+  { name: "Nginx", icon: "SiNginx", position: { x: "90%", y: "5%" } },
   { name: "Firebase", icon: "SiFirebase", position: { x: "20%", y: "75%" } },
   { name: "Git", icon: "SiGit", position: { x: "50%", y: "70%" } },
   { name: "Docker", icon: "SiDocker", position: { x: "90%", y: "80%" } },
