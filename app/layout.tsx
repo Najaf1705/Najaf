@@ -50,7 +50,8 @@ export default function RootLayout({
             property="og:description"
             content="Discover full-stack development skills, AI/ML projects, and creative solutions by Najaf Shaikh."
           />
-          <meta property="og:url" content="https://najaf.vercel.app/" />
+          <meta property="og:url" content="https://najaf.in" />
+          <link rel="canonical" href="https://najaf.in" />
           <meta property="og:image" content="/zen.jpg" />
           <meta property="og:type" content="website" />
 
@@ -67,9 +68,47 @@ export default function RootLayout({
           <link rel="icon" href="/favicon.ico" />
 
           {/* preconnects */}
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
-          <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
-          <link rel="preconnect" href="https://firestore.googleapis.com"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+          <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+          <link rel="preconnect" href="https://firestore.googleapis.com" />
+
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Najaf Shaikh",
+                "url": "https://najaf.in",
+                "image": "https://najaf.in/profile.jpg",
+                "jobTitle": "Software Engineer",
+                "description": "Software engineer specializing in Linux systems, full-stack development, and AI.",
+                "email": "mailto:contact@najaf.in",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Mumbai",
+                  "addressCountry": "India"
+                },
+                "sameAs": [
+                  "https://github.com/najaf1705",
+                  "https://linkedin.com/in/najaf17",
+                  "https://www.instagram.com/_.najaf17._/"
+                  
+                ],
+                "knowsAbout": [
+                  "Software Development",
+                  "Java Spring Boot",
+                  "MERN Stack",
+                  "Linux Systems",
+                  "Windows Systems",
+                  "Nginx",
+                  "Docker",
+                  "Machine Learning"
+                ]
+              }),
+            }}
+          />
+
         </head>
         <body
           className={` bg-gray-50 relative dark:bg-[#02021c]`}

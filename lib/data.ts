@@ -41,7 +41,7 @@ export const projectsData = [
       "Originally a monolithic college project, now refactored with modular architecture, Redux state management, and secure authentication to enhance performance, scalability, code readability, and align with industry best practices.",
     tags: ["ReactJS", "NodeJS", "MongoDB", "Redux"],
     imageUrl: musyncImg,
-    href: "https://musync-enzoe.vercel.app",
+    href: "https://musync.najaf.in",
     sectionTitle: "Click to view live website"
   },
   {
@@ -58,7 +58,7 @@ export const projectsData = [
     description: "Built an AI mock interview platform with Next.js, Clerk auth, webcam and voice input, real-time feedback, and Gemini API integration for generating role-specific questions, answers, and evaluations.",
     tags: ["NextJS", "Gemini API", "TailwindCSS"],
     imageUrl: introImg,
-    href: "https://intro-enzoe.vercel.app/",
+    href: "https://intro.najaf.in/",
     sectionTitle: "Click to view live website"
   },
 ] as const;
