@@ -62,7 +62,11 @@ export default function Header() {
                   }
                 )}
                 href={link.hash}
-                // onClick={() => setActiveSection(link.name)}
+                onClick={(e) => {
+    e.preventDefault();
+    setActiveSection(link.name);
+    document.querySelector(link.hash)?.scrollIntoView({ behavior: "smooth" });
+  }}
               >
                 {link.name}
                 {link.name === activeSection && (

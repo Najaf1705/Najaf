@@ -83,7 +83,7 @@ export default function RootLayout({
                 "image": "https://najaf.in/profile.jpg",
                 "jobTitle": "Software Engineer",
                 "description": "Software engineer specializing in Linux systems, full-stack development, and AI.",
-                "email": "mailto:contact@najaf.in",
+                "email": "mailto:najafshaikh1705@gmail.com",
                 "address": {
                   "@type": "PostalAddress",
                   "addressLocality": "Mumbai",
