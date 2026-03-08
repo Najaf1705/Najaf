@@ -8,10 +8,6 @@ import Footer from "@/components/footer";
 import Darktheme from "@/components/darktheme";
 import { Toaster } from "react-hot-toast";
 
-// const poppins = Poppins({
-//   weight: "400",
-//   subsets: ["latin"],
-// });
 
 export default function RootLayout({
   children,
