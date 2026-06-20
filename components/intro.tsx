@@ -51,7 +51,7 @@ export default function Intro() {
 
         <div className="flex flex-col  mt-5 sm:flex-row items-center justify-center gap-3">
           <motion.a
-            href="/najafCV.pdf"
+            href="/najafResume.pdf"
             download
             className="hover:bg-gray-600 dark:hover:bg-gray-300 shadow-sm shadow-black/10 cursor-pointer font-medium text-white bg-black dark:text-black dark:bg-white flex items-center py-3 px-7 gap-2 justify-center relative rounded-full"
             initial={{ opacity: 0, y: 100 }}
