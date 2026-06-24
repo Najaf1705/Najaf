@@ -2,6 +2,8 @@ import { hash } from "crypto";
 import musyncImg from "@/public/musyncImg.png";
 import parkitImg from "@/public/parkitImg.png";
 import introImg from "@/public/introImg.png";
+import shortyImg from "@/public/shortyImg.png";
+import nauthImg from "@/public/nauthImg.png"
 
 export const links = [
   {
@@ -42,6 +44,24 @@ export const projectsData = [
     tags: ["ReactJS", "NodeJS", "MongoDB", "Redux"],
     imageUrl: musyncImg,
     href: "https://musync-enzoe.vercel.app",
+    sectionTitle: "Click to view live website"
+  },
+  {
+    title: "NAuth",
+    description:
+      "Built a centralized authentication service providing secure user authentication across multiple applications using JWT-based access and refresh tokens, OTP verification, Google OAuth, session management.",
+    tags: ["TypeScript", "AWS Lambda", "API Gateway", "DynamoDB", "JWT", "OAuth"],
+    imageUrl: nauthImg,
+    href: "https://github.com/Najaf1705/nauth",
+    sectionTitle: "Click to view Github repo"
+  },
+  {
+    title: "Shorty",
+    description:
+      "A serverless URL shortening platform built on AWS that converts long URLs into compact, shareable links. It features custom short code generation, analytics tracking, and scalable backend services.",
+    tags: ["Lambda", "DynamoDB", "SQS", "API gateway", "React"],
+    imageUrl: shortyImg,
+    href: "https://shorty.najaf.in",
     sectionTitle: "Click to view live website"
   },
   {

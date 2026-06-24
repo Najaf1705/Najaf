@@ -35,7 +35,7 @@ export default function Timeline() {
             viewport={{ once: true }}
           >
             <time className="font-mono italic">July 2025 – Present</time>
-            <div className="text-lg font-black">System Administrator</div>
+            <div className="text-lg font-black">Software Engineer</div>
             Kyndryl Solutions  
             <br />
             <span className="text-sm">Mumbai</span>
