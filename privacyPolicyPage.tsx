@@ -15,15 +15,22 @@ export default function PrivacyPolicy() {
         </p>
 
         <p>
-          This Privacy Policy describes how information is collected, used, and
-          protected when you visit this website.
+          This Privacy Policy applies to all services, websites, and applications
+          operated by Najaf under the domain najaf.in and its subdomains,
+          including any app, portal, dashboard, or web service hosted there.
+        </p>
+        <p>
+          By using any of these services, creating an account, logging in, or
+          submitting information, you acknowledge that you have read,
+          understood, and agreed to this Privacy Policy. If you do not agree,
+          please do not use these services.
         </p>
 
         <h2 className="font-semibold text-xl mt-6">1. Information Collected</h2>
         <p>
-          This website may collect limited personal information such as your
+          These services may collect limited personal information such as your
           name, email address, or any details you voluntarily provide through
-          contact forms or email communication.
+          contact forms, account registration, or email communication.
         </p>
         <p>
           Non-personal data such as browser type, device information, and usage
